@@ -23,3 +23,8 @@ runtimes:
     path: /drt
     action: POST
     reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
+  - name: restTest
+    type: REST
+    path: /dafdrt
+    action: POST
+    reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.project.kvv_0104_vp.integrations:gv

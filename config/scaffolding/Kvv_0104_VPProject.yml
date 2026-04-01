@@ -30,9 +30,15 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 - name: JMS2waySSL
+  version: "1.0"
   gitServerName: kvv
   gitUrl: https://github.com/prabhakarsag
   gitUsername: Karthik-V-IBM-10
+  gitBranch: main
+- name: DADA_GlobalVariable1
+  gitServerName: SIQAMJAN
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
   gitBranch: main
 services:
 - serviceName: project.kvv_0104_vp.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:rest0104
@@ -40,6 +46,8 @@ services:
   - name: Kvv_0104_VPProject
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -60,6 +68,8 @@ services:
   - name: Kvv_0104_VPProject
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -89,6 +99,8 @@ services:
     version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -107,11 +119,83 @@ services:
   packages:
   - name: JMS2waySSL
     version: "1.0"
+- serviceName: project.kvv_0104_vp.integrations:gv
+  packages:
+  - name: Kvv_0104_VPProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.17
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
+- serviceName: pub.globalVariable:getGlobalVariable
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.808
+- serviceName: project.kvv_0104_vp.integrations:refdaf
+  packages:
+  - name: Kvv_0104_VPProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.17
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
+- serviceName: project.kvv_0104_vp.referencedata:ref1
+  packages:
+  - name: Kvv_0104_VPProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.17
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 - serviceName: project.kvv_0104_vp.integrations:sfREST
   packages:
   - name: Kvv_0104_VPProject
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -132,6 +216,8 @@ services:
   - name: Kvv_0104_VPProject
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: JMSTest
     version: "1.0"

@@ -16,6 +16,11 @@ runtimes:
     path: /ert
     action: POST
     reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
+  - name: restTest
+    type: REST
+    path: /dafert
+    action: POST
+    reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.project.kvv_0104_vp.integrations:gv
 - runtimeAlias: Cloud Designtime
   assets:
   - name: restTest

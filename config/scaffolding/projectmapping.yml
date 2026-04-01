@@ -11,3 +11,10 @@ runtimes:
     type: flow
     stepId: /0
     reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: restTest
+    type: REST
+    path: /drt
+    action: POST
+    reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations

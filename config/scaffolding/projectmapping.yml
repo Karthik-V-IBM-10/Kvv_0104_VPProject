@@ -21,6 +21,11 @@ runtimes:
     path: /dafert
     action: POST
     reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.project.kvv_0104_vp.integrations:gv
+  - name: builtinWorkflow
+    type: workflow
+    uid: fl23ee7a0f25ce4c82bbe687b29f5284eb
+    stepId: a1
+    reference: project.kvv_0104_vp.integrations:deepclonetest
 - runtimeAlias: Cloud Designtime
   assets:
   - name: restTest
@@ -33,3 +38,8 @@ runtimes:
     path: /dafdrt
     action: POST
     reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.project.kvv_0104_vp.integrations:gv
+  - name: builtinWorkflow
+    type: workflow
+    uid: fl23ee7a0f25ce4c82bbe687b29f5284eb
+    stepId: a0
+    reference: project.kvv_0104_vp.integrations:deepclonetest

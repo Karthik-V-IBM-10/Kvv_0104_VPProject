@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: Kvv_0104_VPProject
+runtimes:
+- runtimeAlias: kvv_0104_VP
+  assets:
+  - name: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.integrations:dbtpp
+    type: flow
+    stepId: /0
+    reference: fld_1111013723_stage00.projects.fl2b5abb2044534ad686c930f1fe714839.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
